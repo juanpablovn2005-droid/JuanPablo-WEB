@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Juan Pablo — Freelancer Digital</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: #f4f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #4b79a1, #283e51);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-weight: 600;
+      font-size: 3.5rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    header p {
+      margin-top: 10px;
+      font-weight: 300;
+      font-size: 1.25rem;
+      letter-spacing: 1px;
+    }
+    section {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+    section h2 {
+      color: #4b79a1;
+      font-weight: 600;
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #4b79a1;
+      padding-bottom: 8px;
+      letter-spacing: 1.2px;
+    }
+    .servicio {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 6px 15px rgba(75,121,161,0.2);
+      padding: 25px;
+      margin-bottom: 30px;
+      transition: transform 0.3s ease;
+      cursor: default;
+    }
+    .servicio:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 25px rgba(75,121,161,0.35);
+    }
+    .servicio h3 {
+      color: #283e51;
+      margin-top: 0;
+    }
+    .servicio p {
+      font-weight: 300;
+      margin-bottom: 15px;
+    }
+    .servicio img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .servicio img:hover {
+      transform: scale(1.05);
+    }
+    .video-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+    iframe {
+      max-width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(75,121,161,0.3);
+      transition: box-shadow 0.3s ease;
+    }
+    iframe:hover {
+      box-shadow: 0 10px 25px rgba(75,121,161,0.6);
+    }
+    #sobre-mi p {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 6px 15px rgba(75,121,161,0.15);
+      font-weight: 400;
+      line-height: 1.5;
+    }
+    #contacto ul {
+      list-style: none;
+      padding: 0;
+      font-weight: 600;
+    }
+    #contacto ul li {
+      margin-bottom: 12px;
+      font-size: 1.1rem;
+    }
+    #contacto a {
+      color: #4b79a1;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    #contacto a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background: #283e51;
+      color: white;
+      text-align: center;
+      padding: 15px 20px;
+      font-weight: 300;
+      letter-spacing: 1.5px;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+      section {
+        margin: 30px 15px;
+      }
+    }
+    .btn-contacto {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 30px;
+      background: #4b79a1;
+      color: white;
+      border-radius: 25px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.3s ease;
+      box-shadow: 0 6px 15px rgba(75,121,161,0.3);
+    }
+    .btn-contacto:hover {
+      background: #375a78;
+      box-shadow: 0 10px 25px rgba(55,90,120,0.6);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Juan Pablo</h1>
+    <p>Edición • Redacción • Automatización con IA • Creación de páginas web</p>
+    <a href="#contacto" class="btn-contacto">Contáctame</a>
+  </header>
+
+  <section id="inicio">
+    <h2>Bienvenido</h2>
+    <p>Hola, soy Juan Pablo. Ofrezco servicios digitales profesionales para ayudarte a hacer crecer tu presencia online, automatizar tareas y crear contenido de calidad.</p>
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2ePf9rue1Ao" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="servicio">
+      <h3>Edición y Redacción de contenido</h3>
+      <p>Textos con estilo, perfección y adaptados a lo que necesitas: blogs, redes sociales, descripciones, etc.</p>
+      <img src="https://images.pexels.com/photos/374016/pexels-photo-374016.jpeg" alt="Edición de contenido" />
+    </div>
+    <div class="servicio">
+      <h3>Automatización con inteligencia artificial</h3>
+      <p>Uso de herramientas de IA para optimizar tareas repetitivas, generar workflows, crear bots, etc.</p>
+      <img src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg" alt="Automatización IA" />
+    </div>
+    <div class="servicio">
+      <h3>Creación de páginas web</h3>
+      <p>Diseño limpio, moderno y responsive; que luzca bien en móviles y ordenadores.</p>
+      <img src="https://images.pexels.com/photos/267614/pexels-photo-267614.jpeg" alt="Diseño web" />
+    </div>
+  </section>
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Soy Juan Pablo, freelancer digital. Me especializo en entregar trabajos que combinan creatividad con tecnología. Mi meta es hacer que tu proyecto destaque.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Si te interesa trabajar conmigo, escríbeme:</p>
+    <ul>
+      <li>📧 <a href="mailto:juanpablovn2005@gmail.com">juanpablovn2005@gmail.com</a></li>
+      <li>📱 Instagram: <a href="https://instagram.com/juanpvn04" target="_blank">@juanpvn04</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Juan Pablo &copy; 2025</p>
+  </footer>
+
+</body>
+</html>
